@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UFT-8"?>
+	<Movies>
+		<Movie>
+			<Movie Title>Star Wars: Episode IV - A New Hope</Movie Title>
+			<Year Released>1977</Year Released>
+			<Director> George Lucas </Director>
+			<Writer> George Lucas </Writer>
+			<Actors>
+				<Actor>
+					<Name>Mark Hamill</Name>
+					<Character>Luke Skywalker</Character>
+				</Actor>
+				<Actor>
+					<Name>Harrison Ford</Name>
+					<Character>Han Solo</Character>
+				</Actor>
+				<Actor>
+					<Name>Carrie Fisher</Name>
+					<Character>Princess Leia Organa</Character>
+				</Actor>
+			</Actors>
+		</Movie>
+		<Movie>
+			<Movie Title>Executive Decision</Movie Title>
+			<Year Released>1996</Year Released>
+			<Director>Stuart Baird</Director>
+			<Writer>Jim Thomas</Writer>
+			<Actors>
+				<Actor>
+					<Name>Kurt Russell</Name>
+					<Character>David Grant</Character>
+				</Actor>
+				<Actor>
+					<Name>Steven Seagal</Name>
+					<Character>Lt. Colonel Austin Travis</Character>
+				</Actor>
+				<Actor>
+					<Name>Halle Berry</Name>
+					<Character>Jean</Character>
+				</Actor>
+			</Actors>
+		</Movie>
+		<Movie>
+			<Movie Title>We Were Soldiers</Movie Title>
+			<Year Released>2002</Year Released>
+			<Director>Randall Wallace</Director>
+			<Writer>Harold G. Moore</Writer>
+			<Actors>
+				<Actor>
+					<Name>Mel Gibson</Name>
+					<Character>Lt. Col. Hal Moore</Character>
+				</Actor>
+				<Actor>
+					<Name>Madeleine Stowe</Name>
+					<Character>Julie Moore</Character>
+				</Actor>
+				<Actor>
+					<Name>Greg Kinnear</Name>
+					<Character>Maj. Bruce 'Snake' Crandall</Character>
+				</Actor>
+			</Actors>
+		</Movie>	
+	</Movies>
