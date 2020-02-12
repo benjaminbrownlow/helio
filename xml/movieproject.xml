@@ -1,63 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<Movies>
-		<Movie>
-			<Movie_Title>Star Wars: Episode IV - A New Hope</Movie_Title>
-			<Year_Released>1977</Year_Released>
-			<Director> George Lucas </Director>
-			<Writer> George Lucas </Writer>
+		<Movie Title="Star Wars: Episode IV - A New Hope" Year_Released="1977" Director="George Lucas" Writer="George Lucas">
 			<Actors>
-				<Actor>
-					<Name>Mark Hamill</Name>
-					<Character>Luke Skywalker</Character>
-				</Actor>
-				<Actor>
-					<Name>Harrison Ford</Name>
-					<Character>Han Solo</Character>
-				</Actor>
-				<Actor>
-					<Name>Carrie Fisher</Name>
-					<Character>Princess Leia Organa</Character>
-				</Actor>
+				<Actor Name="Mark Hamill" Character="Luke Skywalker"></Actor>
+				<Actor Name="Harrison Ford" Character="Han Solo"></Actor>
+				<Actor Name="Carrie Fisher" Character="Princess Leia Organa"></Actor>
 			</Actors>
 		</Movie>
-		<Movie>
-			<Movie_Title>Executive Decision</Movie_Title>
-			<Year_Released>1996</Year_Released>
-			<Director>Stuart Baird</Director>
-			<Writer>Jim Thomas</Writer>
+		<Movie Title="Executive Decision" Year_Released="1996" Director="Stuart Baird" Writer="Jim Thomas">
 			<Actors>
-				<Actor>
-					<Name>Kurt Russell</Name>
-					<Character>David Grant</Character>
-				</Actor>
-				<Actor>
-					<Name>Steven Seagal</Name>
-					<Character>Lt. Colonel Austin Travis</Character>
-				</Actor>
-				<Actor>
-					<Name>Halle Berry</Name>
-					<Character>Jean</Character>
-				</Actor>
+				<Actor Name="Kurt Russell" Character="David Grant"></Actor>
+				<Actor Name="Steven Seagal" Character="Lt. Colonel Austin Travis"></Actor>
+				<Actor Name="Halle Berry" Character="Jean"></Actor>
 			</Actors>
 		</Movie>
-		<Movie>
-			<Movie_Title>We Were Soldiers</Movie_Title>
-			<Year_Released>2002</Year_Released>
-			<Director>Randall Wallace</Director>
-			<Writer>Harold G. Moore</Writer>
+		<Movie Title="We Were Sodliers" Year_Released="2002" Director="Randall Wallace" Writer="Harold G. Moore">
 			<Actors>
-				<Actor>
-					<Name>Mel Gibson</Name>
-					<Character>Lt. Col. Hal Moore</Character>
-				</Actor>
-				<Actor>
-					<Name>Madeleine Stowe</Name>
-					<Character>Julie Moore</Character>
-				</Actor>
-				<Actor>
-					<Name>Greg Kinnear</Name>
-					<Character>Maj. Bruce 'Snake' Crandall</Character>
-				</Actor>
+				<Actor Name="Mel Gibson" Character="Lt. Col. Hal Moore"></Actor>
+				<Actor Name="Madeleine Stowe" Character="Julie Moore"></Actor>
+				<Actor Name="Greg Kinnear" Character="Maj. Bruce 'Snake' Crandall"></Actor>
 			</Actors>
 		</Movie>	
 	</Movies>
