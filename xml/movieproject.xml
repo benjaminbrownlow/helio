@@ -2,7 +2,7 @@
 	<Movies>
 		<Movie>
 			<Movie_Title>Star Wars: Episode IV - A New Hope</Movie_Title>
-			<Year Released>1977</Year Released>
+			<Year_Released>1977</Year_Released>
 			<Director> George Lucas </Director>
 			<Writer> George Lucas </Writer>
 			<Actors>
@@ -22,7 +22,7 @@
 		</Movie>
 		<Movie>
 			<Movie_Title>Executive Decision</Movie_Title>
-			<Year Released>1996</Year Released>
+			<Year_Released>1996</Year_Released>
 			<Director>Stuart Baird</Director>
 			<Writer>Jim Thomas</Writer>
 			<Actors>
@@ -41,8 +41,8 @@
 			</Actors>
 		</Movie>
 		<Movie>
-			<Movie_Title>We Were Soldiers</Movie_Title>
-			<Year Released>2002</Year Released>
+			<Movie_Title>We Were Soldiers</Movie_ Title>
+			<Year_Released>2002</Year_Released>
 			<Director>Randall Wallace</Director>
 			<Writer>Harold G. Moore</Writer>
 			<Actors>
