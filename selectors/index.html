@@ -1,65 +1,63 @@
-<!DOCtype html>
+<!DOCTYPE html>
 <html>
+  <style>
+    body {
+      background-color: #000;
+      color: #ffffff;
+    }
 
-<style>
-	body {
-		background-color: #000;
-		color: #ffffff;
-	}
+    .container {
+      background-color: red;
+      border-radius: 20px;
+      text-align: center;
+      width: 400px;
+    }
 
-	.container {
-		background-color: red;
-		border-radius: 20px;
-		text-align: center;
-		width: 400px;
-	}
+    h2 {
+      color: white;
+      font-family: "arial black";
+    }
 
-	h2 {
-		color: white;
-		font-family: "arial black";
-	}
+    h4 {
+      color: white;
+      font-family: arial;
+    }
 
-	h4 {
-		color: white;
-		font-family: arial;
-	}
+    h1 {
+      color: black;
+      background-color: #fff;
+      padding: 30px;
+      font-family: "arial black";
+    }
+  </style>
 
-	h1 {
-		color: black;
-		background-color: #fff;
-		padding: 30px;
-		font-family: "arial black";
-	}
-</style>
+  <body>
+    <div class="container">
+      <h2>Hello</h2>
+      <h4>My Name Is...</h4>
+      <h1 id="name"></h1>
+      <h4>&nbsp</h4>
+    </div>
 
-<body>
-	<Div class="container">
-		<h2>Hello</h2>
-		<h4>My Name Is...</h4>
-		<h1 id="name"></h1>
-		<h4>&nbsp</h4>
-	</div>
-
-	<h4>Change the Name</h4>
-	<label for="change-name">Enter Name</label>
-	<input type="text" id="change-name">
-	<button onclick="changeName()">Change Name</button>
-	<button onclick="popup()">I like popups</button>
-	<script>
-		const name = {
-			name: ' '
-		}
-		const changeName = () => {
-			name.name = document.getElementById('change-name').value
-			showName()
-		}
-		const showName = () => {
-			document.getElementById('name').innerHTML = name.name
-		}
-		const popup = () => {
-			alert('Hello my name is' + ' ' + name.name)
-		}
-	</script>
-</body>
-
+    <h4>Change the Name</h4>
+    <label for="change-name">Enter Name</label>
+    <input type="text" id="change-name" />
+    <button onclick="changeName()">Change Name</button>
+    <button onclick="popup()">I like popups</button>
+    <script>
+      const name = {
+        name: " "
+      };
+      const changeName = () => {
+        name.name = document.getElementById("change-name").value;
+        showName();
+      };
+      const showName = () => {
+        document.getElementById("name").innerHTML = name.name;
+      };
+      const popup = () => {
+        alert("Hello my name is" + " " + name.name);
+      };
+    </script>
+  </body>
 </html>
