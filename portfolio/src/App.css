@@ -169,3 +169,71 @@ li {
   background: -webkit-linear-gradient(left, #54d400 48%, #1b1e21 48%);
   background: linear-gradient(45deg, #54d400 48%, #1b1e21 48%);
 }
+
+/* Slideshow*/
+.slides {
+  display: none;
+}
+img {vertical-align: middle;}
+.slideimages {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+/* Caption text */
+.text {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: -30px;
+  right: 10%;
+  max-width: 450px;
+  background-color: rgb(0, 0, 0, 0.8);
+  border-radius: 3px;
+}
+@media screen and (max-width: 450px) {
+  .text {
+    display: none;
+  }
+}
+
+.text i {
+  color: #ffffff;
+  margin: 5px;
+  font-size: 40px;
+}
+.text p {
+  color: #8dc63f;
+  margin: 5px;
+  font-size: 24px;
+}
+.active {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 700px) {
+  .text {font-size: 11px}
+}
