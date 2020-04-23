@@ -5,7 +5,7 @@
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
 }
 .navbar {
   display: -ms-flexbox;
@@ -44,7 +44,7 @@ padding:0;
 margin:0;
 display:inline-block;
 font-size: 13px;
-color: #f1f6ff;
+color: #ffffff;
 }
 
 .topbar p > i{
@@ -185,6 +185,7 @@ img {vertical-align: middle;}
   max-width: 1200px;
   position: relative;
   margin: auto;
+  background-color: ffffff;
 }
 /* Caption text */
 .text {
@@ -215,7 +216,7 @@ img {vertical-align: middle;}
   font-size: 24px;
 }
 .active {
-  background-color: #717171;
+  background-color: #333333;
 }
 /* Fading animation */
 .fade {

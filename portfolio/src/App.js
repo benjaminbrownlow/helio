@@ -5,7 +5,7 @@ import './App.css';
 var slideIndex = 0;
 
 
-const showSlides = () => {
+var showSlides = () => {
   var slideshowImages;
   var slides = document.getElementsByClassName("slides");
   for (slideshowImages = 0; slideshowImages < slides.length; slideshowImages++) {
@@ -17,6 +17,9 @@ const showSlides = () => {
   setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 
+window.onload = () => {
+  showSlides()
+}
 
 function App() {
   return (
@@ -84,7 +87,7 @@ function App() {
       <div className="slideshow-container">
 
         <div class="slides fade">
-          <img src="/assets/img/img1.png" className="slideimages" />
+          <img src="/assets/img/img1.png" className="slideimages" alt=" 1" />
           <div className="text">
             <i>Join some things</i>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -94,7 +97,7 @@ function App() {
         </div>
 
         <div className="slides fade">
-          <img src="assets/img/img2.png" className="slideimages" />
+          <img src="assets/img/img2.png" className="slideimages" alt="2" />
           <div className="text">
             <i>Play some things</i>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -104,7 +107,7 @@ function App() {
         </div>
 
         <div className="slides fade">
-          <img src="assets/img/img3.png" className="slideimages" />
+          <img src="assets/img/img3.png" className="slideimages" alt="3" />
           <div className="text">
             <i>Win some things</i>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
