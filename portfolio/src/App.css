@@ -7,6 +7,15 @@
   color: #212529;
   background-color: #ffffff;
 }
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #f7f7f7;
+}
 .navbar {
   display: -ms-flexbox;
   display: flex;
@@ -17,10 +26,6 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 5px;
-}
-
-#navbartext {
-  text-transform: uppercase;
 }
 
 /*
@@ -44,7 +49,7 @@ padding:0;
 margin:0;
 display:inline-block;
 font-size: 13px;
-color: #ffffff;
+color: #f1f6ff;
 }
 
 .topbar p > i{
@@ -165,76 +170,50 @@ li {
 }
 
 .mx-background-top-linear {
-  background: -webkit-linear-gradient(45deg, #54d400 48%, #1b1e21 48%);
-  background: -webkit-linear-gradient(left, #54d400 48%, #1b1e21 48%);
-  background: linear-gradient(45deg, #54d400 48%, #1b1e21 48%);
+  background: -webkit-linear-gradient(45deg, #4169E1 48%, #1b1e21 48%);
+  background: -webkit-linear-gradient(left, #4169E1 48%, #1b1e21 48%);
+  background: linear-gradient(45deg, #4169E1 48%, #1b1e21 48%);
+}
+.slide-container {
+  width: 70%;
+  margin: auto; }
+
+h3 {
+  text-align: center; }
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
 }
 
-/* Slideshow*/
-.slides {
-  display: none;
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
 }
-img {vertical-align: middle;}
-.slideimages {
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  width: 75%;
+  overflow: hidden;
+}
+
+.each-fade .image-container img {
   width: 100%;
-  border-radius: 5px;
 }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1200px;
-  position: relative;
-  margin: auto;
-  background-color: ffffff;
-}
-/* Caption text */
-.text {
-  color: #ffffff;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: -30px;
-  right: 10%;
-  max-width: 450px;
-  background-color: rgb(0, 0, 0, 0.8);
-  border-radius: 3px;
-}
-@media screen and (max-width: 450px) {
-  .text {
-    display: none;
-  }
-}
-
-.text i {
-  color: #ffffff;
-  margin: 5px;
-  font-size: 40px;
-}
-.text p {
-  color: #8dc63f;
-  margin: 5px;
-  font-size: 24px;
-}
-.active {
-  background-color: #333333;
-}
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 700px) {
-  .text {font-size: 11px}
+.each-fade h2 {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #adceed;
 }
