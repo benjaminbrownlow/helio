@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
+import Home from './pages/home'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+
 
 function App() {
   return (
     <div>
-      <div className="fixed-top">
+      <div>
         <header className="topbar">
           <div className="container">
             <div className="row">
@@ -20,44 +24,24 @@ function App() {
             </div>
           </div>
         </header>
-        <nav className="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
-          <div className="container">
-            <a className="navbar-brand" href="index.html"> Benjamin Brownlow</a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="/navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarResponsive">
-
-              <ul className="navbar-nav ml-auto">
-
-                <li className="nav-item active">
-                  <a className="nav-link" href="/">Home
-              <span className="sr-only">(current)</span>
-                  </a>
-                </li>
-
-                <li className="nav-item">
-                  <a className="nav-link" href="/">Portfolio</a>
-                </li>
-
-
-                <li className="nav-item">
-                  <a className="nav-link" href="/">Blog</a>
-                </li>
-
-                <li className="nav-item">
-                  <a className="nav-link" href="/">About</a>
-                </li>
-
-                <li className="nav-item">
-                  <a className="nav-link" href="/">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+        <div className="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
+          <Navbar expand="lg" className="container">
+            <Navbar.Brand href="/"> Benjamin Brownlow</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="navbar-nav ml-auto">
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/">Portfolio</Nav.Link>
+                <Nav.Link href="/">Blog</Nav.Link>
+                <Nav.Link href="/">About</Nav.Link>
+                <Nav.Link href="/">Contact</Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+        </div>
       </div>
-    </div>
+      <Home />
+    </div >
   )
 }
 

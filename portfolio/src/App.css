@@ -29,7 +29,7 @@ body {
 }
 
 /*
-headeer top
+header top
 */
 .topbar{
 background-color: #212529;
@@ -149,14 +149,7 @@ float: right;
   transition: .3s ease-out;
   color: #fff;
 }
-a {
-color: #0a0a0a;
-text-decoration: none;
-}
 
-li {
-  list-style-type: none;
-}
 .bg-image-full {
   background-position: center center;
   background-repeat: no-repeat;
@@ -174,8 +167,10 @@ li {
   background: -webkit-linear-gradient(left, #4169E1 48%, #1b1e21 48%);
   background: linear-gradient(45deg, #4169E1 48%, #1b1e21 48%);
 }
+
+/*Homepage Slideshot*/
 .slide-container {
-  width: 70%;
+  width: 100%;
   margin: auto; }
 
 h3 {
@@ -192,28 +187,40 @@ h3 {
 .each-slide span {
   padding: 20px;
   font-size: 20px;
-  background: #efefef;
   text-align: center;
 }
 
 .each-fade {
-  display: flex;
 }
 
 .each-fade .image-container {
-  width: 75%;
-  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin: auto;
 }
 
 .each-fade .image-container img {
   width: 100%;
 }
 
-.each-fade h2 {
-  width: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  background: #adceed;
+.each-fade .image-container .text {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 5px;
+  right: 10%;
+  max-width: 450px;
+  background-color: rgb(0, 0, 0, 0.8);
+  border-radius: 3px;
+}
+.each-fade .image-container .text i {
+  color: #ffffff;
+  margin: 5px;
+  font-size: 40px;
+}
+.each-fade .image-container .text p {
+  color: #4169E1;
+  margin: 5px;
+  font-size: 24px;
 }
