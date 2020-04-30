@@ -1,6 +1,8 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
-import '../css/home.css'
+import Card from 'react-bootstrap/Card';
+import CardDeck from 'react-bootstrap/CardDeck';
+import '../css/home.css';
 
 const fadeImages = [
     './assets/img/img1.png',
@@ -67,6 +69,37 @@ const Home = () => {
                         <iframe width="420" height="244" src="https://www.youtube.com/embed/9MIFx5LXWRE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </section>
+                <CardDeck>
+                <Card>
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Body>
+                            <Card.Title>Card title</Card.Title>
+                                <Card.Text> This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">Last updated 3 mins ago</small>
+                        </Card.Footer>
+                </Card>
+                <Card>
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Body>
+                            <Card.Title>Card title</Card.Title>
+                                <Card.Text> This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">Last updated 3 mins ago</small>
+                        </Card.Footer>
+                </Card>                <Card>
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                        <Card.Body>
+                            <Card.Title>Card title</Card.Title>
+                                <Card.Text> This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</Card.Text>
+                        </Card.Body>
+                        <Card.Footer>
+                            <small className="text-muted">Last updated 3 mins ago</small>
+                        </Card.Footer>
+                </Card>
+            </CardDeck>
             </div>
         </div>
     )
