@@ -1,6 +1,6 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
-import HomeCarousel from '../components/homecarousel'
+import '../css/home.css'
 
 const fadeImages = [
     './assets/img/img1.png',
@@ -51,7 +51,23 @@ const Home = () => {
                     </div>
                 </div>
             </Fade>
-            <HomeCarousel />
+            <div className="body-container">
+                <h2>Work Highlights</h2>
+                <section className="highlight-images">
+                    <img src="./assets/img/home/aoeii.png" />
+                    <img src="./assets/img/home/aoeii.png" />
+                    <img src="./assets/img/home/aoeii.png" />
+                </section>
+                <section className="home-text">
+                    <div>
+                        <h3>Programmer, Tech Enthusiast, and Burger Lover</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div>
+                        <iframe width="420" height="244" src="https://www.youtube.com/embed/9MIFx5LXWRE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </section>
+            </div>
         </div>
     )
 }
