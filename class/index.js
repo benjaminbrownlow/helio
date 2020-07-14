@@ -12,11 +12,6 @@ class Dog extends Animal {
     super(species);
     this.dog = name;
   }
-  show() {
-    return this.present() + ', his name is ' + this.dog;
-  }
 }
 
 myanimal = new Dog("Dog", "Winston");
-document.getElementById("Animal").innerHTML = myanimal.show();
-
